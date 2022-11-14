@@ -1,2 +1,2 @@
 def run(config):
-    return {"batchSize": config['batchSize']}
+    return {"batchSize": config['batchSize']*2}
