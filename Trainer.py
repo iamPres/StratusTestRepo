@@ -1,2 +1,2 @@
 def run(config):
-    return {"MAE": 0.96, "RMSE": config['batchSize']*2}
+    return {"RMSE": config['net_size']*2}
