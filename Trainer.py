@@ -1,2 +1,2 @@
 def run(config):
-    return {"RMSE": config['net_size']*2}
+    return {"RMSE": int(config['net_size'])*2}
