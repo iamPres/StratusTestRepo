@@ -1,11 +1,11 @@
 routines:
   train: 
-    name: "Train.py"
+  - name: "Train.py"
     status:
       update: "TRAINED"
       color: "orange"
   test:
-    name: "Test.py"
+  - name: "Test.py"
     status:
       update: "TESTED"
       color: "green"
