@@ -1,2 +1,3 @@
-def run(config):
-    return {"RMSE": int(config['config']['net_size'])*3}
+def run(runner):
+    val = int(runner.getParams("batch_size"))*3
+    runner.publishMetrics("RMSE", val)
